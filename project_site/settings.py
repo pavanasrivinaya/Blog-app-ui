@@ -25,7 +25,7 @@ SECRET_KEY = 'w-h)g-$#rn9p(htmtq1p50s5*1nl0e2_y)9ya#&$pb=y+i#w_*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -152,7 +152,7 @@ if os.getcwd() == '/app':
 
     #Allow all host headers
 
-    ALLOWED_HOSTS = ['Blog-app-pavana.herokuapp.com']
+    ALLOWED_HOSTS = ['*']
 
     DEBUG = True
 
